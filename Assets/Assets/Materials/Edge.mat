@@ -60,7 +60,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Distortion_amount: 50
-    - _Offset_amount: -30
+    - _Offset_amount: 30
     - _QueueControl: 1
     - _QueueOffset: 0
     - _ReflexionDepth: 1
