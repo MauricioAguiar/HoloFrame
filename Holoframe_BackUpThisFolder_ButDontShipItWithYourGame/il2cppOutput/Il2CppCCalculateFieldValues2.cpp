@@ -2171,10 +2171,8 @@ struct Comet_spawn_t0398675C999025B0513D8E755F42028371355E84  : public MonoBehav
 // Invoke_prefab
 struct Invoke_prefab_t02578EA200AF77F3A72EFD5CBE8F4383CC7D7222  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.GameObject Invoke_prefab::Prefab
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Prefab_4;
-	// UnityEngine.GameObject Invoke_prefab::PrefabChildSetter
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___PrefabChildSetter_5;
+	// UnityEngine.GameObject Invoke_prefab::prefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefab_4;
 };
 
 // PlaceTrackedImages
@@ -2182,8 +2180,8 @@ struct PlaceTrackedImages_t9A1BE3CE9F556643A2223A2754D3258B4D288A61  : public Mo
 {
 	// UnityEngine.XR.ARFoundation.ARTrackedImageManager PlaceTrackedImages::_trackedImagesManager
 	ARTrackedImageManager_tCBA77F0B8A7172CC6508CA29176EAE1DE5DC4BD4* ____trackedImagesManager_4;
-	// UnityEngine.GameObject PlaceTrackedImages::AR_Model
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___AR_Model_5;
+	// UnityEngine.GameObject PlaceTrackedImages::arModel
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___arModel_5;
 	// UnityEngine.GameObject[] PlaceTrackedImages::ArPrefabs
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___ArPrefabs_6;
 	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject> PlaceTrackedImages::_instantiatedPrefabs
@@ -2495,12 +2493,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6143[10] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6144[1] = 
 {
 	static_cast<int32_t>(offsetof(Comet_spawn_t0398675C999025B0513D8E755F42028371355E84, ___objectsToSpawn_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6145[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6145[1] = 
 {
-	static_cast<int32_t>(offsetof(Invoke_prefab_t02578EA200AF77F3A72EFD5CBE8F4383CC7D7222, ___Prefab_4)),static_cast<int32_t>(offsetof(Invoke_prefab_t02578EA200AF77F3A72EFD5CBE8F4383CC7D7222, ___PrefabChildSetter_5)),};
+	static_cast<int32_t>(offsetof(Invoke_prefab_t02578EA200AF77F3A72EFD5CBE8F4383CC7D7222, ___prefab_4)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6147[4] = 
 {
-	static_cast<int32_t>(offsetof(PlaceTrackedImages_t9A1BE3CE9F556643A2223A2754D3258B4D288A61, ____trackedImagesManager_4)),static_cast<int32_t>(offsetof(PlaceTrackedImages_t9A1BE3CE9F556643A2223A2754D3258B4D288A61, ___AR_Model_5)),static_cast<int32_t>(offsetof(PlaceTrackedImages_t9A1BE3CE9F556643A2223A2754D3258B4D288A61, ___ArPrefabs_6)),static_cast<int32_t>(offsetof(PlaceTrackedImages_t9A1BE3CE9F556643A2223A2754D3258B4D288A61, ____instantiatedPrefabs_7)),};
+	static_cast<int32_t>(offsetof(PlaceTrackedImages_t9A1BE3CE9F556643A2223A2754D3258B4D288A61, ____trackedImagesManager_4)),static_cast<int32_t>(offsetof(PlaceTrackedImages_t9A1BE3CE9F556643A2223A2754D3258B4D288A61, ___arModel_5)),static_cast<int32_t>(offsetof(PlaceTrackedImages_t9A1BE3CE9F556643A2223A2754D3258B4D288A61, ___ArPrefabs_6)),static_cast<int32_t>(offsetof(PlaceTrackedImages_t9A1BE3CE9F556643A2223A2754D3258B4D288A61, ____instantiatedPrefabs_7)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6156[2] = 
 {
 	static_cast<int32_t>(offsetof(PoseData_t67ECD1DA6257206C1935CCD030E1E1EF57E1443A, ___PoseNames_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(PoseData_t67ECD1DA6257206C1935CCD030E1E1EF57E1443A, ___Poses_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};

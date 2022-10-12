@@ -18,11 +18,14 @@ public class Card_info : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
 
+
+        /**
         _titleInput = GameObject.Find("Card/TextBoxes/_title").GetComponent<TMP_Text>();
         _author1Input = GameObject.Find("Card/TextBoxes/_author1").GetComponent<TMP_Text>();
         _author2Input = GameObject.Find("Card/TextBoxes/_author2").GetComponent<TMP_Text>();
         _gratitudeInput = GameObject.Find("Card/TextBoxes/_gratitude").GetComponent<TMP_Text>();
         _signatureInput = GameObject.Find("Card/TextBoxes/_signature").GetComponent<TMP_Text>();
+        
 
 
         SetStrings(_titleInput, _title);
@@ -30,6 +33,8 @@ public class Card_info : MonoBehaviour
         SetStrings(_author2Input, _author2);
         SetStrings(_gratitudeInput, _gratitude);
         SetStrings(_signatureInput, _signature);
+
+        **/
     }
 
     void SetStrings(TMP_Text tmp_text, string text)
@@ -38,7 +43,6 @@ public class Card_info : MonoBehaviour
             text = "Default";
         }
         tmp_text.text = text;
-
     }
 
 

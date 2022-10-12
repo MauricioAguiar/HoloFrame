@@ -10801,10 +10801,8 @@ struct HTCViveControllerProfile_t65F40E7ED71E6833A8252AC7F7A2CD250A5A78C4  : pub
 // Invoke_prefab
 struct Invoke_prefab_t02578EA200AF77F3A72EFD5CBE8F4383CC7D7222  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.GameObject Invoke_prefab::Prefab
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Prefab_4;
-	// UnityEngine.GameObject Invoke_prefab::PrefabChildSetter
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___PrefabChildSetter_5;
+	// UnityEngine.GameObject Invoke_prefab::prefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefab_4;
 };
 
 // UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile
@@ -10895,8 +10893,8 @@ struct PlaceTrackedImages_t9A1BE3CE9F556643A2223A2754D3258B4D288A61  : public Mo
 {
 	// UnityEngine.XR.ARFoundation.ARTrackedImageManager PlaceTrackedImages::_trackedImagesManager
 	ARTrackedImageManager_tCBA77F0B8A7172CC6508CA29176EAE1DE5DC4BD4* ____trackedImagesManager_4;
-	// UnityEngine.GameObject PlaceTrackedImages::AR_Model
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___AR_Model_5;
+	// UnityEngine.GameObject PlaceTrackedImages::arModel
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___arModel_5;
 	// UnityEngine.GameObject[] PlaceTrackedImages::ArPrefabs
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___ArPrefabs_6;
 	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject> PlaceTrackedImages::_instantiatedPrefabs
