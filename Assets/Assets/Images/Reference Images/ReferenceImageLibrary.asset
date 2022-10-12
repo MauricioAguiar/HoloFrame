@@ -33,7 +33,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 10035341595909232560
       m_GuidHigh: 34463996909216170
-    m_Size: {x: 0.07601547, y: 0.12}
+    m_Size: {x: 0.09501935, y: 0.15}
     m_SpecifySize: 1
     m_Name: Universe
     m_Texture: {fileID: 0}

@@ -9,9 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6250049301776390763}
-  - component: {fileID: 9165851383501097981}
   m_Layer: 0
-  m_Name: AR_Scale
+  m_Name: Scale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,18 +32,6 @@ Transform:
   m_Father: {fileID: 6048921232991674909}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9165851383501097981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1689063332167862260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58aa619e9221e1645925dc2d2d2f5819, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4210889168096981734
 GameObject:
   m_ObjectHideFlags: 0
@@ -54,6 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3461960728981376377}
+  - component: {fileID: 9064299736112757343}
   m_Layer: 0
   m_Name: AR_Model
   m_TagString: Untagged
@@ -79,6 +67,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9064299736112757343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4210889168096981734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58aa619e9221e1645925dc2d2d2f5819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6717390254193344257
 GameObject:
   m_ObjectHideFlags: 0

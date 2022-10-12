@@ -12,6 +12,8 @@ public class PlaceTrackedImages : MonoBehaviour
 
     private ARTrackedImageManager _trackedImagesManager;
 
+    public GameObject AR_Model;
+
     public GameObject[] ArPrefabs;
 
     private readonly Dictionary<string, GameObject> _instantiatedPrefabs = new();
@@ -41,7 +43,14 @@ public class PlaceTrackedImages : MonoBehaviour
 
             foreach (var curPrefab in ArPrefabs)
             {
-                if (string.Compare(curPrefab.name, imageName, StringComparison.OrdinalIgnoreCase) ==0 && !_instantiatedPrefabs.ContainsKey(imageName)){
+                if (string.Compare(curPrefab.name, imageName, StringComparison.OrdinalIgnoreCase) ==0 && !_instantiatedPrefabs.ContainsKey(imageName)){                   
+
+                    /**
+                    GameObject PrefabChildSetter = AR_Model;
+
+                    PrefabChildSetter = GameObject.Find("Prop_Reciever/Scale");
+                    PrefabChildSetter = Instantiate(Prefab);
+                    **/                   
 
                     var newPrefab = Instantiate(curPrefab, trackedImage.transform);
 
