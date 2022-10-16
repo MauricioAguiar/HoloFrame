@@ -12,7 +12,9 @@ public class PlaceTrackedImages : MonoBehaviour
 
     private ARTrackedImageManager _trackedImagesManager;
 
-    public GameObject[] ArPrefabs;
+    public GameObject _ARModel;
+
+    public Card_info[] _cardInfo;
 
     private readonly Dictionary<string, GameObject> _instantiatedPrefabs = new();
 
@@ -39,11 +41,15 @@ public class PlaceTrackedImages : MonoBehaviour
         {
             var imageName = trackedImage.referenceImage.name;
 
-            foreach (var curPrefab in ArPrefabs)
+            foreach (var curPrefab in _cardInfo)
             {
-                if (string.Compare(curPrefab.name, imageName, StringComparison.OrdinalIgnoreCase) ==0 && !_instantiatedPrefabs.ContainsKey(imageName)){                                  
+                if (string.Compare(curPrefab.name, imageName, StringComparison.OrdinalIgnoreCase) ==0 && !_instantiatedPrefabs.ContainsKey(imageName)){
 
-                    var newPrefab = Instantiate(curPrefab, trackedImage.transform);
+                    GameObject go = _ARModel;
+
+                    go.GetComponent<CardScript>().SetInfo(curPrefab);
+
+                    var newPrefab = Instantiate(go, trackedImage.transform);
 
                     _instantiatedPrefabs[imageName] = newPrefab;
                 }

@@ -403,8 +403,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbdbc3cf5b7a99444a4ee74e4ecf769c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ArPrefabs:
-  - {fileID: 762224855437006962, guid: 8c28c72388b905c428e0a9d2492873f7, type: 3}
+  _ARModel: {fileID: 4210889168096981734, guid: 9fa0b68ddce276c41ae0dcab9dac5c56,
+    type: 3}
+  _cardInfo:
+  - {fileID: 11400000, guid: 6b48fbcce7a5fa140a7041620151130b, type: 2}
 --- !u!114 &388525037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,7 +498,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.5905e-41, y: 1.075016, z: 4.5905e-41, w: 9.403955e-38}
+  m_BoundingSphereOverride: {x: 4.5905e-41, y: 0.0004436532, z: 4.5905e-41, w: 9.403955e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0

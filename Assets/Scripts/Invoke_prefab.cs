@@ -7,23 +7,25 @@ public class Invoke_prefab : MonoBehaviour
 {
 
     [SerializeField]
-    public GameObject prefab;
+    private GameObject prefab;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        SetInstance(GetPrefab());
+        prefab = GetComponent<CardScript>().GetInfo().artObject;
+        SetInstance();
     }
 
-    internal void SetInstance(GameObject newPrefab)
+    internal void SetInstance()
      {
         GameObject prefabChildSetter = GameObject.Find("Prop_Reciever/Scale");
 
-        GameObject childSetter = Instantiate(newPrefab, prefabChildSetter.transform);
+        GameObject childSetter = Instantiate(prefab, prefabChildSetter.transform);
 
         Debug.Log(prefabChildSetter.name);
-        Debug.Log(newPrefab.name);
+        Debug.Log(prefab.name);
 
         childSetter.transform.SetParent(prefabChildSetter.transform);
     }

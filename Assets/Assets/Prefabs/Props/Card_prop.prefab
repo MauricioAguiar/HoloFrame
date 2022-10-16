@@ -108,7 +108,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5628072072310252309}
   - component: {fileID: 1275961534577478367}
-  - component: {fileID: 3552399883829751162}
   m_Layer: 6
   m_Name: Card_prop
   m_TagString: Untagged
@@ -141,23 +140,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4670248978637225481}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &3552399883829751162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4670248978637225481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63003754e69d9b840b39ad14d6f5714f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _title: Titulo
-  _author1: Autor
-  _author2: Segundo Autor
-  _gratitude: "Agradecimento ou Descri\xE7\xE3o"
-  _signature: "Assinatura ou vers\xE3o"
 --- !u!1 &5311907327770921752
 GameObject:
   m_ObjectHideFlags: 0

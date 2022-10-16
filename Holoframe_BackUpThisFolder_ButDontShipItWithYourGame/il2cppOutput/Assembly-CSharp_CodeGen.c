@@ -44,45 +44,51 @@ extern void ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69
 extern void ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6 (void);
 // 0x00000010 System.Void ARFeatheredPlaneMeshVisualizer::.cctor()
 extern void ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3 (void);
-// 0x00000011 System.Void Card_info::Start()
-extern void Card_info_Start_m82BF5DACD0AA67CDF9EB63567E2A42A1092B83CB (void);
-// 0x00000012 System.Void Card_info::SetStrings(TMPro.TMP_Text,System.String)
-extern void Card_info_SetStrings_m98599DAF88420F9CC62F5F753B0CE71DD9C395A2 (void);
-// 0x00000013 System.Void Card_info::Update()
-extern void Card_info_Update_m3DD9CAA71ED810BCAF07CFFE81BA7E12ABA1EE6B (void);
-// 0x00000014 System.Void Card_info::.ctor()
+// 0x00000011 System.Void CardScript::Start()
+extern void CardScript_Start_m975D7E1EA17EB5FCC667A375830B0725C32719D3 (void);
+// 0x00000012 System.Void CardScript::SetValues()
+extern void CardScript_SetValues_mD51A2B9AB9A84E4A0DEF2F26264942C0C41907DF (void);
+// 0x00000013 System.Void CardScript::SetStrings(TMPro.TMP_Text,System.String)
+extern void CardScript_SetStrings_mAB0FDD2B262AC2131EEF9599D4E0170BE44FF523 (void);
+// 0x00000014 Card_info CardScript::GetInfo()
+extern void CardScript_GetInfo_m1A3396FCE12B64D787DDD8364D080EEBAEC184C6 (void);
+// 0x00000015 System.Void CardScript::SetInfo(Card_info)
+extern void CardScript_SetInfo_mA133BE7D3F914738C85A2B1A6004C9CC6BDA66F3 (void);
+// 0x00000016 System.Void CardScript::.ctor()
+extern void CardScript__ctor_m04577E7BF769799A8E2ECBD5D93FD10E27B1094D (void);
+// 0x00000017 System.Void Card_info::.ctor()
 extern void Card_info__ctor_m5B12DFA4EE64476465254A8769E2F71D757B2DFB (void);
-// 0x00000015 System.Void Comet_spawn::Update()
+// 0x00000018 System.Void Comet_spawn::Update()
 extern void Comet_spawn_Update_mC47A61CF6D7CD76E6E4DD95CD9258F687601AEEF (void);
-// 0x00000016 System.Void Comet_spawn::.ctor()
+// 0x00000019 System.Void Comet_spawn::.ctor()
 extern void Comet_spawn__ctor_mF5E5571BA210E69FC90978F7CE38677F23DBBF9E (void);
-// 0x00000017 System.Void Invoke_prefab::Start()
+// 0x0000001A System.Void Invoke_prefab::Start()
 extern void Invoke_prefab_Start_m478AC2AFD0FB0CC4D1E4ACCCC76E296CB569B30A (void);
-// 0x00000018 System.Void Invoke_prefab::SetInstance(UnityEngine.GameObject)
-extern void Invoke_prefab_SetInstance_mF6D1413909C89A76E231643F115210DB73D80651 (void);
-// 0x00000019 System.Void Invoke_prefab::SetPrefab(UnityEngine.GameObject)
+// 0x0000001B System.Void Invoke_prefab::SetInstance()
+extern void Invoke_prefab_SetInstance_m7B48B1CB4A02CBBEC542155637B2ABDE09FED05C (void);
+// 0x0000001C System.Void Invoke_prefab::SetPrefab(UnityEngine.GameObject)
 extern void Invoke_prefab_SetPrefab_m479E5B0F44DB3CEA8450A6DFBDCB84E284DCCF26 (void);
-// 0x0000001A UnityEngine.GameObject Invoke_prefab::GetPrefab()
+// 0x0000001D UnityEngine.GameObject Invoke_prefab::GetPrefab()
 extern void Invoke_prefab_GetPrefab_mE3FEA7BF85A27865DAEB887A4B63C950BCAF4ED5 (void);
-// 0x0000001B System.Void Invoke_prefab::.ctor()
+// 0x0000001E System.Void Invoke_prefab::.ctor()
 extern void Invoke_prefab__ctor_m6C33B32F2F88542EC3E2C2741F2829962D8FE66E (void);
-// 0x0000001C System.Void main_behaviour::Start()
+// 0x0000001F System.Void main_behaviour::Start()
 extern void main_behaviour_Start_m89E42AB8ED394D57478AA5F776C53105E64C30B0 (void);
-// 0x0000001D System.Void main_behaviour::Update()
+// 0x00000020 System.Void main_behaviour::Update()
 extern void main_behaviour_Update_m3EC351A724CA9B3A80C91708D18FE25F868DA232 (void);
-// 0x0000001E System.Void main_behaviour::.ctor()
+// 0x00000021 System.Void main_behaviour::.ctor()
 extern void main_behaviour__ctor_m074A317FDB9EDC4942A78C279C0A41821F305F1E (void);
-// 0x0000001F System.Void PlaceTrackedImages::Awake()
+// 0x00000022 System.Void PlaceTrackedImages::Awake()
 extern void PlaceTrackedImages_Awake_m875A81CA90E727B87965D5FA603AE8AFCE931A78 (void);
-// 0x00000020 System.Void PlaceTrackedImages::OnEnable()
+// 0x00000023 System.Void PlaceTrackedImages::OnEnable()
 extern void PlaceTrackedImages_OnEnable_mA30F29043B9F5A6995F2CBA8D1340C8F42667EE4 (void);
-// 0x00000021 System.Void PlaceTrackedImages::OnDisable()
+// 0x00000024 System.Void PlaceTrackedImages::OnDisable()
 extern void PlaceTrackedImages_OnDisable_m401542722AB2DC781D193CFD7E2E8F8873C8AEF6 (void);
-// 0x00000022 System.Void PlaceTrackedImages::OnTrackedImagesChanged(UnityEngine.XR.ARFoundation.ARTrackedImagesChangedEventArgs)
+// 0x00000025 System.Void PlaceTrackedImages::OnTrackedImagesChanged(UnityEngine.XR.ARFoundation.ARTrackedImagesChangedEventArgs)
 extern void PlaceTrackedImages_OnTrackedImagesChanged_m9B9BAD9C115836AB3E18F38AA6B21EF6D951D463 (void);
-// 0x00000023 System.Void PlaceTrackedImages::.ctor()
+// 0x00000026 System.Void PlaceTrackedImages::.ctor()
 extern void PlaceTrackedImages__ctor_m6ED9F36190AAA71939672E2EA701CDB2FE277260 (void);
-static Il2CppMethodPointer s_methodPointers[35] = 
+static Il2CppMethodPointer s_methodPointers[38] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -100,14 +106,17 @@ static Il2CppMethodPointer s_methodPointers[35] =
 	ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69CD8C7C8CCE56209AB321FEF5,
 	ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6,
 	ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3,
-	Card_info_Start_m82BF5DACD0AA67CDF9EB63567E2A42A1092B83CB,
-	Card_info_SetStrings_m98599DAF88420F9CC62F5F753B0CE71DD9C395A2,
-	Card_info_Update_m3DD9CAA71ED810BCAF07CFFE81BA7E12ABA1EE6B,
+	CardScript_Start_m975D7E1EA17EB5FCC667A375830B0725C32719D3,
+	CardScript_SetValues_mD51A2B9AB9A84E4A0DEF2F26264942C0C41907DF,
+	CardScript_SetStrings_mAB0FDD2B262AC2131EEF9599D4E0170BE44FF523,
+	CardScript_GetInfo_m1A3396FCE12B64D787DDD8364D080EEBAEC184C6,
+	CardScript_SetInfo_mA133BE7D3F914738C85A2B1A6004C9CC6BDA66F3,
+	CardScript__ctor_m04577E7BF769799A8E2ECBD5D93FD10E27B1094D,
 	Card_info__ctor_m5B12DFA4EE64476465254A8769E2F71D757B2DFB,
 	Comet_spawn_Update_mC47A61CF6D7CD76E6E4DD95CD9258F687601AEEF,
 	Comet_spawn__ctor_mF5E5571BA210E69FC90978F7CE38677F23DBBF9E,
 	Invoke_prefab_Start_m478AC2AFD0FB0CC4D1E4ACCCC76E296CB569B30A,
-	Invoke_prefab_SetInstance_mF6D1413909C89A76E231643F115210DB73D80651,
+	Invoke_prefab_SetInstance_m7B48B1CB4A02CBBEC542155637B2ABDE09FED05C,
 	Invoke_prefab_SetPrefab_m479E5B0F44DB3CEA8450A6DFBDCB84E284DCCF26,
 	Invoke_prefab_GetPrefab_mE3FEA7BF85A27865DAEB887A4B63C950BCAF4ED5,
 	Invoke_prefab__ctor_m6C33B32F2F88542EC3E2C2741F2829962D8FE66E,
@@ -120,7 +129,7 @@ static Il2CppMethodPointer s_methodPointers[35] =
 	PlaceTrackedImages_OnTrackedImagesChanged_m9B9BAD9C115836AB3E18F38AA6B21EF6D951D463,
 	PlaceTrackedImages__ctor_m6ED9F36190AAA71939672E2EA701CDB2FE277260,
 };
-static const int32_t s_InvokerIndices[35] = 
+static const int32_t s_InvokerIndices[38] = 
 {
 	7607,
 	6112,
@@ -139,13 +148,16 @@ static const int32_t s_InvokerIndices[35] =
 	7742,
 	13924,
 	7742,
+	7742,
 	3317,
-	7742,
-	7742,
-	7742,
-	7742,
-	7742,
+	7607,
 	6112,
+	7742,
+	7742,
+	7742,
+	7742,
+	7742,
+	7742,
 	6112,
 	7607,
 	7742,
@@ -162,7 +174,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	35,
+	38,
 	s_methodPointers,
 	0,
 	NULL,

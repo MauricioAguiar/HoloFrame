@@ -2962,7 +2962,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3461960728981376377}
-  - component: {fileID: 7394417004141893242}
   m_Layer: 6
   m_Name: Universe_Prop
   m_TagString: Untagged
@@ -2990,23 +2989,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7394417004141893242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4210889168096981734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63003754e69d9b840b39ad14d6f5714f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _title: Vivi Galaxy
-  _author1: Vivian Mietlicki
-  _author2: "Maur\xEDcio Aguiar"
-  _gratitude: With Gratittude
-  _signature: Galaxies 1
 --- !u!1 &4222242057330400182
 GameObject:
   m_ObjectHideFlags: 0

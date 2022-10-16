@@ -67,7 +67,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Universe_Prop
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7394417004141893242, guid: e8ccad7ce729b75429e30667e3a65275, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8ccad7ce729b75429e30667e3a65275, type: 3}
 --- !u!1001 &9204378009714905571
 PrefabInstance:
