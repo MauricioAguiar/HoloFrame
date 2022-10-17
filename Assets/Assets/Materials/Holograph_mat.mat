@@ -34,12 +34,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _HoloEffect:
         m_Texture: {fileID: 2800000, guid: 1919bf146b77d794d9cdf7d46fed9a13, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Holo_effect:
-        m_Texture: {fileID: 2800000, guid: a458fd9798f37e045b7c4862ee72bef5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 063baeeb8d7b8514ea0e100dfd247386, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
@@ -51,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_texture:
-        m_Texture: {fileID: 2800000, guid: 36c7e73310f13f14192d1a26ebda6154, type: 3}
+        m_Texture: {fileID: 2800000, guid: ec1b438b68dea934e857a12d1346e5bb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
