@@ -183,6 +183,8 @@ struct ARTrackedImage_tC1D6394277D354FB2B952C6D5CAB62140AA455C2;
 struct ARTrackedImageManager_tCBA77F0B8A7172CC6508CA29176EAE1DE5DC4BD4;
 // AnchorCreator
 struct AnchorCreator_tBBEE94135B5183E0A8EE52FB00513F69C7C980ED;
+// ButtonBehaviour
+struct ButtonBehaviour_t0E87906E0ABF962FBD9FC73727CD63601F80C76D;
 // UnityEngine.Canvas
 struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
 // UnityEngine.CanvasRenderer
@@ -271,8 +273,6 @@ struct XRPlaneSubsystem_t6FC18D5B1FF10EE9B4A751977B526F44A16EDB62;
 struct XRRaycastSubsystem_t48087E79DE9617C7E866875C8DDD3124C9E068B7;
 // UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
 struct XRReferenceImageLibrary_t039233790C16E76ED95AABD95D9A35014081EA42;
-// main_behaviour
-struct main_behaviour_t17BF40FA12FDA7479F8A3863B66564209D2CAD6A;
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 
@@ -288,8 +288,10 @@ IL2CPP_EXTERN_C RuntimeClass* List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_i
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral131018280018B48DB9FF86A96C7535E6FA339C24;
 IL2CPP_EXTERN_C String_t* _stringLiteral3BB81BF443BFB97F0326709DC50BA86DF2CEDA4D;
+IL2CPP_EXTERN_C String_t* _stringLiteral631CB151C08E6727A6009F81F2ED6808146362CC;
 IL2CPP_EXTERN_C String_t* _stringLiteral8155849CA832F388AAB2EC5C2478645D7DFB6819;
 IL2CPP_EXTERN_C String_t* _stringLiteral849043193B4849A97BE2F08CFC3CAC883A0F096C;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D5313975DA8153FF9A5262016CB413A4E84846E;
@@ -2146,6 +2148,13 @@ struct AnchorCreator_tBBEE94135B5183E0A8EE52FB00513F69C7C980ED_StaticFields
 	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___s_Hits_5;
 };
 
+// ButtonBehaviour
+struct ButtonBehaviour_t0E87906E0ABF962FBD9FC73727CD63601F80C76D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.String ButtonBehaviour::newGameLevel
+	String_t* ___newGameLevel_4;
+};
+
 // CardScript
 struct CardScript_t4B17FF2888F2A1049E437EE231FE938459DCA6FA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -2204,11 +2213,6 @@ struct PlaceTrackedImages_t9A1BE3CE9F556643A2223A2754D3258B4D288A61  : public Mo
 
 // UnityEngine.EventSystems.UIBehaviour
 struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
-// main_behaviour
-struct main_behaviour_t17BF40FA12FDA7479F8A3863B66564209D2CAD6A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 };
 
@@ -3344,6 +3348,8 @@ inline void List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C (List_1_t77B9
 {
 	((  void (*) (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*, const RuntimeMethod*))List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_gshared)(__this, method);
 }
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___sceneName0, const RuntimeMethod* method) ;
 // System.Void CardScript::SetValues()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CardScript_SetValues_mD51A2B9AB9A84E4A0DEF2F26264942C0C41907DF (CardScript_t4B17FF2888F2A1049E437EE231FE938459DCA6FA* __this, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
@@ -4138,6 +4144,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARFeatheredPlaneMeshVisualizer__cctor_m5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void ButtonBehaviour::NewSceneSelector()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonBehaviour_NewSceneSelector_mC7EA0CC5C32C1CAC2E333FC4E7D52790D9209822 (ButtonBehaviour_t0E87906E0ABF962FBD9FC73727CD63601F80C76D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SceneManager.LoadScene(newGameLevel);
+		String_t* L_0 = __this->___newGameLevel_4;
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void ButtonBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonBehaviour__ctor_mFA2F62D6B0B14270E1BD36533B39CA349F007DCC (ButtonBehaviour_t0E87906E0ABF962FBD9FC73727CD63601F80C76D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral631CB151C08E6727A6009F81F2ED6808146362CC);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private string newGameLevel = "ARScene";
+		__this->___newGameLevel_4 = _stringLiteral631CB151C08E6727A6009F81F2ED6808146362CC;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___newGameLevel_4), (void*)_stringLiteral631CB151C08E6727A6009F81F2ED6808146362CC);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void CardScript::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CardScript_Start_m975D7E1EA17EB5FCC667A375830B0725C32719D3 (CardScript_t4B17FF2888F2A1049E437EE231FE938459DCA6FA* __this, const RuntimeMethod* method) 
 {
@@ -4513,38 +4562,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 }
 // System.Void Invoke_prefab::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Invoke_prefab__ctor_m6C33B32F2F88542EC3E2C2741F2829962D8FE66E (Invoke_prefab_t02578EA200AF77F3A72EFD5CBE8F4383CC7D7222* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void main_behaviour::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void main_behaviour_Start_m89E42AB8ED394D57478AA5F776C53105E64C30B0 (main_behaviour_t17BF40FA12FDA7479F8A3863B66564209D2CAD6A* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void main_behaviour::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void main_behaviour_Update_m3EC351A724CA9B3A80C91708D18FE25F868DA232 (main_behaviour_t17BF40FA12FDA7479F8A3863B66564209D2CAD6A* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void main_behaviour::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void main_behaviour__ctor_m074A317FDB9EDC4942A78C279C0A41821F305F1E (main_behaviour_t17BF40FA12FDA7479F8A3863B66564209D2CAD6A* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);

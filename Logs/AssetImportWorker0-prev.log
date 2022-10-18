@@ -15,7 +15,7 @@ D:/Unity Projects/Holoframe
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49514
+51549
 Successfully changed project path to: D:/Unity Projects/Holoframe
 D:/Unity Projects/Holoframe
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity Projects/Holoframe
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 132.81 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 175.40 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,170 +63,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009153 seconds.
+Registered in 0.237258 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 122.89 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 124.21 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.603 seconds
+- Completed reload, in  4.325 seconds
 Domain Reload Profiling:
-	ReloadAssembly (604ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (4326ms)
+		BeginReloadAssembly (2884ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (442ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (2884ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (90ms)
+			SetupTypeCache (566ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (287ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (49ms)
+				InitializePlatformSupportModulesInManaged (51ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
+				RefreshPlugins (124ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008094 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Holoframe\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Holoframe\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 127.13 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Package Manager log level set to [2]
-Mono: successfully reloaded assembly
-- Completed reload, in  1.462 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1462ms)
-		BeginReloadAssembly (206ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (1153ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (622ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (141ms)
-				ProcessInitializeOnLoadAttributes (265ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6909 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (1.3 MB). Loaded Objects now: 7368.
-Memory consumption went from 283.4 MB to 282.2 MB.
-Total: 4.605700 ms (FindLiveObjects: 0.621900 ms CreateObjectMapping: 0.203500 ms MarkObjects: 3.258200 ms  DeleteObjects: 0.520900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 20658.280053 seconds.
-  path: Assets/Assets/Images/Textures/WOOD-.jpg
-  artifactKey: Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/Textures/WOOD-.jpg using Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211809a2b0290aac289582f3adebfd89') in 0.129285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.648316 seconds.
-  path: Assets/Assets/Images/Textures/WOOD-.jpg
-  artifactKey: Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/Textures/WOOD-.jpg using Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696e6d84d1e7a1a844c1167573eb07c1') in 0.047689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.777419 seconds.
-  path: Assets/Assets/Images/Textures/WOOD-.jpg
-  artifactKey: Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/Textures/WOOD-.jpg using Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1641eafb6b4a6856b11af0d90c41d32f') in 0.031697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.273721 seconds.
-  path: Assets/Assets/Images/Textures/WOOD-.jpg
-  artifactKey: Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/Textures/WOOD-.jpg using Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730ecdcffe7197962c812132edc06be5') in 0.237309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.633119 seconds.
-  path: Assets/Assets/Images/Textures/WOOD-.jpg
-  artifactKey: Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/Textures/WOOD-.jpg using Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0a35aab84369fc9a07058ea4beeb9c') in 0.008724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.630590 seconds.
-  path: Assets/Assets/Images/Textures/WOOD-.jpg
-  artifactKey: Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/Textures/WOOD-.jpg using Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88bc60f76aa04672a824060cf42f56c') in 0.026983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.094656 seconds.
-  path: Assets/Assets/Images/Textures/WOOD-.jpg
-  artifactKey: Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/Textures/WOOD-.jpg using Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a407135d171f113b408f70067329d05b') in 0.157551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.189410 seconds.
-  path: Assets/Assets/Images/Textures/WOOD-.jpg
-  artifactKey: Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/Textures/WOOD-.jpg using Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794c3bae7647816aa11a0dad8912932b') in 0.027967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.183013 seconds.
-  path: Assets/Assets/Images/Textures/WOOD-.jpg
-  artifactKey: Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Images/Textures/WOOD-.jpg using Guid(ec1b438b68dea934e857a12d1346e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decc388b921f984605a750d979673d1e') in 0.025431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.276392 seconds.
-  path: Assets/Assets/Materials/Holograph_mat.mat
-  artifactKey: Guid(82a7d1b33edd1b14c8132bdd4c38f55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/Holograph_mat.mat using Guid(82a7d1b33edd1b14c8132bdd4c38f55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e4bf6980ce3fa27f803e0ef51debf1') in 0.246702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.979840 seconds.
-  path: Assets/Assets/Materials/New Material 1.mat
-  artifactKey: Guid(2af943b7ef5b179489b467a6b364463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Materials/New Material 1.mat using Guid(2af943b7ef5b179489b467a6b364463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48f7ea93726258d3144deefdbf5637d') in 0.034242 seconds 
+Registered in 0.010799 seconds.
+Android Extension - Scanning For ADB Devices 4542 ms
