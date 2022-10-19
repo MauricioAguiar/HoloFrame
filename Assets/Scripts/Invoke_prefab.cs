@@ -10,11 +10,10 @@ public class Invoke_prefab : MonoBehaviour
     private GameObject prefab;
 
 
-
     // Start is called before the first frame update
     void Start()
     {
-        prefab = GetComponent<CardScript>().GetInfo().artObject;
+        prefab = GetComponent<PaintScript>().GetInfo().objectModel;
         SetInstance();
     }
 

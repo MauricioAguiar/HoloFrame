@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-public class CardScript : MonoBehaviour{
+public class PaintScript : MonoBehaviour{
 
-    public Card_info info;
+    public PaintObject paint;
 
     public string _title, _author1, _author2, _gratitude, _signature = "Default";
 
@@ -32,11 +32,11 @@ public class CardScript : MonoBehaviour{
 
     private void SetValues()
     {
-        this._title = info._title;
-        this._author1 = info._author1;
-        this._author2 = info._author2;
-        this._gratitude = info._gratitude;
-        this._signature = info._signature;
+        this._title = paint._title;
+        this._author1 = paint._author1;
+        this._author2 = paint._author2;
+        this._gratitude = paint._gratitude;
+        this._signature = paint._signature;
     }
 
     void SetStrings(TMP_Text tmp_text, string text) {
@@ -46,14 +46,14 @@ public class CardScript : MonoBehaviour{
         tmp_text.text = text;
     }
 
-    public Card_info GetInfo()
+    public PaintObject GetInfo()
     {
-        return this.info;
+        return this.paint;
     }
 
-    public void SetInfo(Card_info card)
+    public void SetInfo(PaintObject paint)
     {
-        this.info = card;
+        this.paint = paint;
     }
 
 }

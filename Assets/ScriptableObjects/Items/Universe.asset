@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63003754e69d9b840b39ad14d6f5714f, type: 3}
+  m_Name: Universe
+  m_EditorClassIdentifier: 
+  ID: 0
+  age: 0
+  _title: Vivi Galaxy
+  _author1: Vivian Mietlicki
+  _author2: 
+  _signature: Cosmo #1
+  _gratitude: To my beloved
+  typeItem: 0
+  rarity: 1
+  objectModel: {fileID: 4210889168096981734, guid: e8ccad7ce729b75429e30667e3a65275,
+    type: 3}
+  paintTheme: 0

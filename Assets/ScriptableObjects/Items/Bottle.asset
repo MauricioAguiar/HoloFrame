@@ -9,13 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63003754e69d9b840b39ad14d6f5714f, type: 3}
-  m_Name: Universe
+  m_Script: {fileID: 11500000, guid: 24662621b56594f43b59ede1877e3441, type: 3}
+  m_Name: Bottle
   m_EditorClassIdentifier: 
-  _title: Vivi Galaxy
-  _author1: Vivian Mietlicki
+  ID: 0
+  age: 0
+  _title: 
+  _author1: 
   _author2: 
-  _gratitude: To my beloved
-  _signature: Cosmo #1
-  artObject: {fileID: 4210889168096981734, guid: e8ccad7ce729b75429e30667e3a65275,
-    type: 3}
+  _signature: 
+  _gratitude: 
+  typeItem: 3
+  rarity: 0
+  objectModel: {fileID: 0}
