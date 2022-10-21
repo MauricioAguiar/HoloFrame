@@ -4,13 +4,14 @@ using UnityEngine;
 using TMPro;
 public class PaintScript : MonoBehaviour{
 
-    public PaintObject paint;
+    public ItemObject paint;
 
     public string _title, _author1, _author2, _gratitude, _signature = "Default";
 
     public GameObject artObject;
 
-    private TMP_Text _titleInput, _author1Input, _author2Input, _gratitudeInput, _signatureInput;
+    private TMP_Text _titleInput, _author1Input;
+    private TMP_Text _author2Input, _gratitudeInput, _signatureInput;
 
     void Start(){
 
@@ -46,12 +47,12 @@ public class PaintScript : MonoBehaviour{
         tmp_text.text = text;
     }
 
-    public PaintObject GetInfo()
+    public ItemObject GetInfo()
     {
         return this.paint;
     }
 
-    public void SetInfo(PaintObject paint)
+    public void SetInfo(ItemObject paint)
     {
         this.paint = paint;
     }

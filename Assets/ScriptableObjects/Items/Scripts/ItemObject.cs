@@ -20,7 +20,7 @@ public abstract class ItemObject : ScriptableObject {
         Exclusive
     }
 
-    public int ID, age;
+    public int ID, creationYear;
 
     public string _title, _author1, _author2, _signature;
 

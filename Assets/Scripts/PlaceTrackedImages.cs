@@ -14,7 +14,7 @@ public class PlaceTrackedImages : MonoBehaviour
 
     public GameObject _ARModel;
 
-    public PaintObject[] paintObj;
+    public ItemObject[] itemObj;
 
     private readonly Dictionary<string, GameObject> _instantiatedPrefabs = new();
 
@@ -41,9 +41,9 @@ public class PlaceTrackedImages : MonoBehaviour
         {
             var imageName = trackedImage.referenceImage.name;
 
-            foreach (var curPrefab in paintObj)
+            foreach (var curPrefab in itemObj)
             {
-                if (string.Compare(curPrefab.name, imageName, StringComparison.OrdinalIgnoreCase) ==0 && !_instantiatedPrefabs.ContainsKey(imageName)){
+                if (string.Compare(curPrefab._title, imageName, StringComparison.OrdinalIgnoreCase) ==0 && !_instantiatedPrefabs.ContainsKey(imageName)){
 
                     GameObject go = _ARModel;
 

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Universe
   m_EditorClassIdentifier: 
   ID: 0
-  age: 0
-  _title: Vivi Galaxy
+  creationYear: 2022
+  _title: Universe
   _author1: Vivian Mietlicki
   _author2: 
   _signature: Cosmo #1

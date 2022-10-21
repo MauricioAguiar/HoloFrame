@@ -44,49 +44,85 @@ extern void ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69
 extern void ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6 (void);
 // 0x00000010 System.Void ARFeatheredPlaneMeshVisualizer::.cctor()
 extern void ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3 (void);
-// 0x00000011 System.Void ButtonBehaviour::NewSceneSelector()
+// 0x00000011 System.Void DefaultObject::Awake()
+extern void DefaultObject_Awake_m37420D14480E327836B5C4BC04EE469E4C178B10 (void);
+// 0x00000012 System.Void DefaultObject::.ctor()
+extern void DefaultObject__ctor_m7AFE2CECE999E2670ED5AFE2B5D910D044CF0EB1 (void);
+// 0x00000013 System.Void InventoryDataBase::OnAfterDeserialize()
+extern void InventoryDataBase_OnAfterDeserialize_mACE5E9C9DE3A2E301FB8940A4BD8D57A7B0FC4C9 (void);
+// 0x00000014 System.Void InventoryDataBase::OnBeforeSerialize()
+extern void InventoryDataBase_OnBeforeSerialize_m08CA79A6EC17C4489D8F231FAE2863B00F0EDC26 (void);
+// 0x00000015 System.Void InventoryDataBase::.ctor()
+extern void InventoryDataBase__ctor_m2368E51CE4AE836BE33152AF5C40FAEA0120570F (void);
+// 0x00000016 System.Void InventoryObject::OnEnable()
+extern void InventoryObject_OnEnable_m584116D6030403AD9F951DDD0BBB997C2BE7BA28 (void);
+// 0x00000017 System.Void InventoryObject::AddItem(ItemObject,System.Int32)
+extern void InventoryObject_AddItem_m42F1179A9B1819C7D31C8DBD54CABDCB8B9AA16D (void);
+// 0x00000018 System.Void InventoryObject::Save()
+extern void InventoryObject_Save_m9509D0ED4CEDDFB5961E2ACDBF58638A8678EB6C (void);
+// 0x00000019 System.Void InventoryObject::Load()
+extern void InventoryObject_Load_m85D1E51B0AEEAB2B374313A1644937743C72528C (void);
+// 0x0000001A System.Void InventoryObject::OnAfterDeserialize()
+extern void InventoryObject_OnAfterDeserialize_mC6369FCBDCC827471FF2480226B39F7ACDC4F3C7 (void);
+// 0x0000001B System.Void InventoryObject::OnBeforeSerialize()
+extern void InventoryObject_OnBeforeSerialize_m5325499ED2C3F94BE4CC9CF1AA8366BA9D6C757A (void);
+// 0x0000001C System.Void InventoryObject::.ctor()
+extern void InventoryObject__ctor_m6BB254AADE46680547414BE61E1E8BB94FE2236D (void);
+// 0x0000001D System.Void InventorySlot::.ctor(System.Int32,ItemObject,System.Int32)
+extern void InventorySlot__ctor_m0F572FA4EE416A2A597A081567BE84AA892B0313 (void);
+// 0x0000001E System.Void InventorySlot::AddAmount(System.Int32)
+extern void InventorySlot_AddAmount_m07D6F861676A4BAE352B747AD0441BE1348E6FFD (void);
+// 0x0000001F System.Void ItemObject::.ctor()
+extern void ItemObject__ctor_m083E3F08AB9F0B57931DB8BD73D9C43E709C841E (void);
+// 0x00000020 System.Void PaintObject::Awake()
+extern void PaintObject_Awake_m9A490C482D82E0D953D9CDF79210E20236B64735 (void);
+// 0x00000021 System.Void PaintObject::.ctor()
+extern void PaintObject__ctor_m5DD8CE3E2DA1AC98E2A86E6DD13B02ADBD96D1EF (void);
+// 0x00000022 System.Void PaintScript::Start()
+extern void PaintScript_Start_m20D704B8991C1F8060D0712D37A1304698260631 (void);
+// 0x00000023 System.Void PaintScript::SetValues()
+extern void PaintScript_SetValues_m79E23F0B1B14D8C9AF7B5DDB23EB2F7FC5726078 (void);
+// 0x00000024 System.Void PaintScript::SetStrings(TMPro.TMP_Text,System.String)
+extern void PaintScript_SetStrings_mFCC220761F75E9546B9C42843D1A8F2F91A2D5E8 (void);
+// 0x00000025 ItemObject PaintScript::GetInfo()
+extern void PaintScript_GetInfo_mC18D848488478225194BD2D9A77E04155949C1CA (void);
+// 0x00000026 System.Void PaintScript::SetInfo(ItemObject)
+extern void PaintScript_SetInfo_m42DDB99EBE4DF2F1561C7C0E27C716173CAC3BB2 (void);
+// 0x00000027 System.Void PaintScript::.ctor()
+extern void PaintScript__ctor_m051D2D17E68CB913B5B053C2089054228882C854 (void);
+// 0x00000028 System.Void ScultureObject::Awake()
+extern void ScultureObject_Awake_m1A2A224193907FEBA4269E40F474C1A901738599 (void);
+// 0x00000029 System.Void ScultureObject::.ctor()
+extern void ScultureObject__ctor_mD98D844BF0CC4BD131CCE7C9AEA6314996CF3CAB (void);
+// 0x0000002A System.Void ButtonBehaviour::NewSceneSelector()
 extern void ButtonBehaviour_NewSceneSelector_mC7EA0CC5C32C1CAC2E333FC4E7D52790D9209822 (void);
-// 0x00000012 System.Void ButtonBehaviour::.ctor()
+// 0x0000002B System.Void ButtonBehaviour::.ctor()
 extern void ButtonBehaviour__ctor_mFA2F62D6B0B14270E1BD36533B39CA349F007DCC (void);
-// 0x00000013 System.Void CardScript::Start()
-extern void CardScript_Start_m975D7E1EA17EB5FCC667A375830B0725C32719D3 (void);
-// 0x00000014 System.Void CardScript::SetValues()
-extern void CardScript_SetValues_mD51A2B9AB9A84E4A0DEF2F26264942C0C41907DF (void);
-// 0x00000015 System.Void CardScript::SetStrings(TMPro.TMP_Text,System.String)
-extern void CardScript_SetStrings_mAB0FDD2B262AC2131EEF9599D4E0170BE44FF523 (void);
-// 0x00000016 Card_info CardScript::GetInfo()
-extern void CardScript_GetInfo_m1A3396FCE12B64D787DDD8364D080EEBAEC184C6 (void);
-// 0x00000017 System.Void CardScript::SetInfo(Card_info)
-extern void CardScript_SetInfo_mA133BE7D3F914738C85A2B1A6004C9CC6BDA66F3 (void);
-// 0x00000018 System.Void CardScript::.ctor()
-extern void CardScript__ctor_m04577E7BF769799A8E2ECBD5D93FD10E27B1094D (void);
-// 0x00000019 System.Void Card_info::.ctor()
-extern void Card_info__ctor_m5B12DFA4EE64476465254A8769E2F71D757B2DFB (void);
-// 0x0000001A System.Void Comet_spawn::Update()
+// 0x0000002C System.Void Comet_spawn::Update()
 extern void Comet_spawn_Update_mC47A61CF6D7CD76E6E4DD95CD9258F687601AEEF (void);
-// 0x0000001B System.Void Comet_spawn::.ctor()
+// 0x0000002D System.Void Comet_spawn::.ctor()
 extern void Comet_spawn__ctor_mF5E5571BA210E69FC90978F7CE38677F23DBBF9E (void);
-// 0x0000001C System.Void Invoke_prefab::Start()
+// 0x0000002E System.Void Invoke_prefab::Start()
 extern void Invoke_prefab_Start_m478AC2AFD0FB0CC4D1E4ACCCC76E296CB569B30A (void);
-// 0x0000001D System.Void Invoke_prefab::SetInstance()
+// 0x0000002F System.Void Invoke_prefab::SetInstance()
 extern void Invoke_prefab_SetInstance_m7B48B1CB4A02CBBEC542155637B2ABDE09FED05C (void);
-// 0x0000001E System.Void Invoke_prefab::SetPrefab(UnityEngine.GameObject)
+// 0x00000030 System.Void Invoke_prefab::SetPrefab(UnityEngine.GameObject)
 extern void Invoke_prefab_SetPrefab_m479E5B0F44DB3CEA8450A6DFBDCB84E284DCCF26 (void);
-// 0x0000001F UnityEngine.GameObject Invoke_prefab::GetPrefab()
+// 0x00000031 UnityEngine.GameObject Invoke_prefab::GetPrefab()
 extern void Invoke_prefab_GetPrefab_mE3FEA7BF85A27865DAEB887A4B63C950BCAF4ED5 (void);
-// 0x00000020 System.Void Invoke_prefab::.ctor()
+// 0x00000032 System.Void Invoke_prefab::.ctor()
 extern void Invoke_prefab__ctor_m6C33B32F2F88542EC3E2C2741F2829962D8FE66E (void);
-// 0x00000021 System.Void PlaceTrackedImages::Awake()
+// 0x00000033 System.Void PlaceTrackedImages::Awake()
 extern void PlaceTrackedImages_Awake_m875A81CA90E727B87965D5FA603AE8AFCE931A78 (void);
-// 0x00000022 System.Void PlaceTrackedImages::OnEnable()
+// 0x00000034 System.Void PlaceTrackedImages::OnEnable()
 extern void PlaceTrackedImages_OnEnable_mA30F29043B9F5A6995F2CBA8D1340C8F42667EE4 (void);
-// 0x00000023 System.Void PlaceTrackedImages::OnDisable()
+// 0x00000035 System.Void PlaceTrackedImages::OnDisable()
 extern void PlaceTrackedImages_OnDisable_m401542722AB2DC781D193CFD7E2E8F8873C8AEF6 (void);
-// 0x00000024 System.Void PlaceTrackedImages::OnTrackedImagesChanged(UnityEngine.XR.ARFoundation.ARTrackedImagesChangedEventArgs)
+// 0x00000036 System.Void PlaceTrackedImages::OnTrackedImagesChanged(UnityEngine.XR.ARFoundation.ARTrackedImagesChangedEventArgs)
 extern void PlaceTrackedImages_OnTrackedImagesChanged_m9B9BAD9C115836AB3E18F38AA6B21EF6D951D463 (void);
-// 0x00000025 System.Void PlaceTrackedImages::.ctor()
+// 0x00000037 System.Void PlaceTrackedImages::.ctor()
 extern void PlaceTrackedImages__ctor_m6ED9F36190AAA71939672E2EA701CDB2FE277260 (void);
-static Il2CppMethodPointer s_methodPointers[37] = 
+static Il2CppMethodPointer s_methodPointers[55] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -104,15 +140,33 @@ static Il2CppMethodPointer s_methodPointers[37] =
 	ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69CD8C7C8CCE56209AB321FEF5,
 	ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6,
 	ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3,
+	DefaultObject_Awake_m37420D14480E327836B5C4BC04EE469E4C178B10,
+	DefaultObject__ctor_m7AFE2CECE999E2670ED5AFE2B5D910D044CF0EB1,
+	InventoryDataBase_OnAfterDeserialize_mACE5E9C9DE3A2E301FB8940A4BD8D57A7B0FC4C9,
+	InventoryDataBase_OnBeforeSerialize_m08CA79A6EC17C4489D8F231FAE2863B00F0EDC26,
+	InventoryDataBase__ctor_m2368E51CE4AE836BE33152AF5C40FAEA0120570F,
+	InventoryObject_OnEnable_m584116D6030403AD9F951DDD0BBB997C2BE7BA28,
+	InventoryObject_AddItem_m42F1179A9B1819C7D31C8DBD54CABDCB8B9AA16D,
+	InventoryObject_Save_m9509D0ED4CEDDFB5961E2ACDBF58638A8678EB6C,
+	InventoryObject_Load_m85D1E51B0AEEAB2B374313A1644937743C72528C,
+	InventoryObject_OnAfterDeserialize_mC6369FCBDCC827471FF2480226B39F7ACDC4F3C7,
+	InventoryObject_OnBeforeSerialize_m5325499ED2C3F94BE4CC9CF1AA8366BA9D6C757A,
+	InventoryObject__ctor_m6BB254AADE46680547414BE61E1E8BB94FE2236D,
+	InventorySlot__ctor_m0F572FA4EE416A2A597A081567BE84AA892B0313,
+	InventorySlot_AddAmount_m07D6F861676A4BAE352B747AD0441BE1348E6FFD,
+	ItemObject__ctor_m083E3F08AB9F0B57931DB8BD73D9C43E709C841E,
+	PaintObject_Awake_m9A490C482D82E0D953D9CDF79210E20236B64735,
+	PaintObject__ctor_m5DD8CE3E2DA1AC98E2A86E6DD13B02ADBD96D1EF,
+	PaintScript_Start_m20D704B8991C1F8060D0712D37A1304698260631,
+	PaintScript_SetValues_m79E23F0B1B14D8C9AF7B5DDB23EB2F7FC5726078,
+	PaintScript_SetStrings_mFCC220761F75E9546B9C42843D1A8F2F91A2D5E8,
+	PaintScript_GetInfo_mC18D848488478225194BD2D9A77E04155949C1CA,
+	PaintScript_SetInfo_m42DDB99EBE4DF2F1561C7C0E27C716173CAC3BB2,
+	PaintScript__ctor_m051D2D17E68CB913B5B053C2089054228882C854,
+	ScultureObject_Awake_m1A2A224193907FEBA4269E40F474C1A901738599,
+	ScultureObject__ctor_mD98D844BF0CC4BD131CCE7C9AEA6314996CF3CAB,
 	ButtonBehaviour_NewSceneSelector_mC7EA0CC5C32C1CAC2E333FC4E7D52790D9209822,
 	ButtonBehaviour__ctor_mFA2F62D6B0B14270E1BD36533B39CA349F007DCC,
-	CardScript_Start_m975D7E1EA17EB5FCC667A375830B0725C32719D3,
-	CardScript_SetValues_mD51A2B9AB9A84E4A0DEF2F26264942C0C41907DF,
-	CardScript_SetStrings_mAB0FDD2B262AC2131EEF9599D4E0170BE44FF523,
-	CardScript_GetInfo_m1A3396FCE12B64D787DDD8364D080EEBAEC184C6,
-	CardScript_SetInfo_mA133BE7D3F914738C85A2B1A6004C9CC6BDA66F3,
-	CardScript__ctor_m04577E7BF769799A8E2ECBD5D93FD10E27B1094D,
-	Card_info__ctor_m5B12DFA4EE64476465254A8769E2F71D757B2DFB,
 	Comet_spawn_Update_mC47A61CF6D7CD76E6E4DD95CD9258F687601AEEF,
 	Comet_spawn__ctor_mF5E5571BA210E69FC90978F7CE38677F23DBBF9E,
 	Invoke_prefab_Start_m478AC2AFD0FB0CC4D1E4ACCCC76E296CB569B30A,
@@ -126,7 +180,7 @@ static Il2CppMethodPointer s_methodPointers[37] =
 	PlaceTrackedImages_OnTrackedImagesChanged_m9B9BAD9C115836AB3E18F38AA6B21EF6D951D463,
 	PlaceTrackedImages__ctor_m6ED9F36190AAA71939672E2EA701CDB2FE277260,
 };
-static const int32_t s_InvokerIndices[37] = 
+static const int32_t s_InvokerIndices[55] = 
 {
 	7608,
 	6113,
@@ -148,9 +202,27 @@ static const int32_t s_InvokerIndices[37] =
 	7743,
 	7743,
 	7743,
+	7743,
+	7743,
+	3310,
+	7743,
+	7743,
+	7743,
+	7743,
+	7743,
+	1574,
+	6079,
+	7743,
+	7743,
+	7743,
+	7743,
+	7743,
 	3318,
 	7608,
 	6113,
+	7743,
+	7743,
+	7743,
 	7743,
 	7743,
 	7743,
@@ -170,7 +242,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	37,
+	55,
 	s_methodPointers,
 	0,
 	NULL,

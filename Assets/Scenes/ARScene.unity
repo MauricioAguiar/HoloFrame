@@ -405,7 +405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ARModel: {fileID: 4210889168096981734, guid: 9fa0b68ddce276c41ae0dcab9dac5c56,
     type: 3}
-  _cardInfo:
+  itemObj:
   - {fileID: 11400000, guid: 6b48fbcce7a5fa140a7041620151130b, type: 2}
 --- !u!114 &388525037
 MonoBehaviour:
